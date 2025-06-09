@@ -6,7 +6,7 @@ import './Hero.css';
 const Hero = () => {
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Resume_GK.pdf';
+    link.href = `${process.env.PUBLIC_URL}/Resume_GK.pdf`;
     link.download = 'Gowni_Kranthi_Kumar_Resume.pdf';
     link.click();
   };
@@ -110,7 +110,7 @@ const Hero = () => {
           >
             <div className="image-container">
               <div className="profile-image">
-                <img src="/profile.jpg" alt="Gowni Kranthi Kumar" className="profile-photo" />
+                <img src={`${process.env.PUBLIC_URL}/profile.jpg`} alt="Gowni Kranthi Kumar" className="profile-photo" />
               </div>
               <div className="image-decoration"></div>
             </div>

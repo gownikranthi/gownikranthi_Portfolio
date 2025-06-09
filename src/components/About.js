@@ -7,7 +7,7 @@ const About = () => {
       <div className="container about-modern">
         <div className="about-modern-content">
           <div className="about-modern-image">
-            <img src="/profile.jpg" alt="Gowni Kranthi Kumar" className="profile-photo" />
+            <img src={`${process.env.PUBLIC_URL}/profile.jpg`} alt="Gowni Kranthi Kumar" className="profile-photo" />
           </div>
           <div className="about-modern-text">
             <h2 className="about-modern-title">About Me</h2>
