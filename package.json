@@ -2,7 +2,7 @@
   "name": "gowni-kranthi-portfolio",
   "version": "1.0.0",
   "description": "Modern AI/ML Portfolio for Gowni Kranthi Kumar",
-  "homepage": "https://gownikranthi.github.io/portfolio",
+  "homepage": "https://gownikranthi.github.io/gownikranthi_Portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
