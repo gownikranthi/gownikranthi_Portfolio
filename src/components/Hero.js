@@ -6,7 +6,7 @@ import './Hero.css';
 const Hero = () => {
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = `${process.env.PUBLIC_URL}/Resume_GK.pdf`;
+    link.href = '/Resume_GK.pdf';
     link.download = 'Gowni_Kranthi_Kumar_Resume.pdf';
     link.click();
   };
