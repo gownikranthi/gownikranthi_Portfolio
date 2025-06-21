@@ -53,13 +53,13 @@ const Contact = () => {
     {
       icon: <FiPhone size={20} />,
       label: "Phone",
-      value: "+91 (Available on request)",
+      value: "+91 9618296518",
       link: null
     },
     {
       icon: <FiMapPin size={20} />,
       label: "Location",
-      value: "Punjab, India",
+      value: "Bangalore, Karnataka",
       link: null
     }
   ];
