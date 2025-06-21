@@ -55,7 +55,7 @@ const Certifications = () => {
                 <p className="year">{cert.year}</p>
               </div>
               <a
-                href={`${process.env.PUBLIC_URL}/${cert.file}`}
+              href={`${process.env.PUBLIC_URL}/${cert.file}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary view-certificate-btn"
